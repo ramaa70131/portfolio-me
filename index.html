@@ -219,7 +219,7 @@
                     <h3>Java Full Stack</h3>
                     <p>Certification in Full Stack Web Development using java, spring boot, and Frontend.</p>
                 </div>
-		    <div class="certificate-card">
+                <div class="certificate-card">
                     <img src="Images/4.jpg" alt="Certification 4">
                     <h3>React Js</h3>
                     <p>Certification in React JS to building the code in Pro5.ai.</p>
@@ -279,6 +279,19 @@
         // Open email client
         window.location.href = mailtoLink;
     });
+</script>
+
+
+<script>
+    AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        once: true,     // Ensures animation occurs only once
+    });
+</script>
+<script>
+    document.querySelector(".container").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
+});
 </script>
 
 
