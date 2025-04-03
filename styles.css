@@ -724,7 +724,7 @@ nav .nav-links a:hover {
         margin: 10px 0;
     }
 
-    .hamburger {
+    .container {
         display: block;
         font-size: 28px;
         color: white;
@@ -814,7 +814,7 @@ nav .nav-links a:hover {
         margin: 10px 0;
     }
 
-    .hamburger {
+    .container {
         display: block;
         font-size: 28px;
         color: white;
@@ -835,7 +835,7 @@ nav .nav-links a:hover {
     }
 
     /* Make images responsive */
-    .banner-images img {
+    .image {
         max-width: 200px;
         height: auto;
     }
